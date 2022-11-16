@@ -1,0 +1,68 @@
+/*1*/
+.class.specified{
+    background: green;
+ }
+ /*2*/
+ span,ul{
+    background: red;
+ }
+/*3*/
+ ul.class3{
+    background:purple;
+ }
+/*4*/
+i>b{
+    background: aquamarine;
+}
+/*5*/
+K+tc{
+    background: blue;
+}
+/*6*/
+[title~=example]{
+ 
+    background: lawngreen;
+}
+/*7*/
+[href$=".xlsx"]
+{
+      background: skyblue;
+}
+/*8*/
+active:active{
+    background-color:GREEN;
+}
+/*9*/
+input:checked{
+    height: 65px;
+    width: 65px;
+}
+
+
+/*10*/
+input[type=text]:enabled{
+
+    background: fuchsia;
+}
+input[type=text]:disabled{
+
+    background: mediumvioletred;
+}
+
+/*11,13*/
+d:first-child{
+    background:lightsalmon;
+}
+d:last-child{
+    background:midnightblue;
+}
+
+/*12*/
+a:hover{
+    background-color:greenyellow;
+}
+
+/*14*/
+a:visited{
+    color:red;
+}
